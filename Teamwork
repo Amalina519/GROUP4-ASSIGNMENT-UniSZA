@@ -1,0 +1,15 @@
+GROUP 3 ASSIGNMENT IMAGE PROCESSING
+
+Sir, for the Teamwork & Collaboration (20%) criteria, we divided our roles into Technical Development and Diagnostic Engineering to ensure a professional workflow:
+
+DANIA FILZATY BINTI MOHD YUSOF (Technical Foundation & Optimization):
+
+Implemented Pre-processing steps, including Grayscale conversion and Gaussian blurring, to reduce image noise.
+Applied advanced Watershed Segmentation and Distance Transform logic to successfully separate touching objects in high-density images.
+
+NUR AMALINA BINTI HASSAN BASRI (Diagnostic Feature Engineering):
+
+Prepared and organized the datasets, specifically analyzing how different backgrounds (light vs. dark) affected the thresholding of the Rice Grains and Bird Seeds.
+Performed Parameter Tuning by adjusting percentile thresholds and marker sensitivity to reach the accurate count of 71 seeds in the most complex case.
+
+We worked collaboratively to solve the "Overlapping Case". While the technical implementation provided the framework, the diagnostic evaluation ensured the algorithm was robust enough to handle the high density of the bird seed image, resulting in a successful and reproducible count.
