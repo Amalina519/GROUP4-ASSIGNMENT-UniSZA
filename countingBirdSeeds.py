@@ -22,7 +22,7 @@ binary = ndimage.binary_dilation(binary, iterations=2)
 # Connected component labeling
 labels, count = ndimage.label(binary)
 
-print("Number of rice grains detected:", count)
+print("Number of bird seeds detected:", count)
 
 # Display
 plt.figure(figsize=(10,6))
@@ -49,3 +49,4 @@ plt.axis("off")
 
 plt.tight_layout()
 plt.show()
+
